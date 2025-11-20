@@ -5,6 +5,6 @@ git diff -- 파일변경내용확인 (작업 디렉터리와 스테이징 영역
 
 git log -- 커밋 기록 보기 (-p / --stat / --pretty)
 
-git reset HEAD -- 스테이징된 내용 취소 ()
+git reset HEAD -- 스테이징된 내용 취소 (--soft / --mixed / --hard)
 
-git restoe - 파일 되돌리기 ()
+git restoe - 파일 되돌리기 (해당 파일 이전 commit 내용으로 되돌림)
