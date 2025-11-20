@@ -1,11 +1,11 @@
 
-git status -- 파일상태확인 (스테이징된 변경 사항 및 스테이징되지 않은 변경 사항 보기)
+git status - 파일상태확인 (스테이징된 변경 사항 및 스테이징되지 않은 변경 사항 보기)
 
-git diff -- 파일변경내용확인 (작업 디렉토리와 스테이징 영역에 있는 내용을 비교)
+git diff - 파일변경내용확인 (작업 디렉토리와 스테이징 영역에 있는 내용을 비교)
 
-git log -- 커밋 기록 보기 (-p / --stat / --pretty)
+git log - 커밋 기록 보기 (-p / --stat / --pretty)
 
-git reset HEAD -- 커밋 취소 (--soft / --mixed / --hard)
+git reset HEAD - 커밋 취소 (--soft / --mixed / --hard)
 
 git restore - 파일 되돌리기 (해당 파일 최근 commit 내용으로 되돌림)
 
@@ -31,4 +31,4 @@ git rebase - 머지와 마찬가지로 브렌치를 병합하지만 이력을 �
 
 // git grep - 검색 (-n / --count)
 
-// git revert - 커밋 이력은 유지하며 특정 커밋 되돌리기 ()
+// git revert - 커밋 이력은 유지하며 특정 커밋 되돌리기 (HEAD 사용해서 맨 위 커밋 되돌리기 가능 / REVERT를 다시 REVERT 하면 REAPPLY로 나옴)
