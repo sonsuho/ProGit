@@ -15,4 +15,4 @@ git remote - 깃 저장소 관리 (--add / --remove / --set-url)
 
 // git config로 현재 설정 확인 후 git remote로 저장소 변경 가능
 
-// 
+git branch - 충돌 해결 (충돌 해결 브렌치를 생성하자! -- 머지할 브렌치에서 생성하던가 / 현재 브렌치에서 생성하거나) 
